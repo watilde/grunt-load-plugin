@@ -1,0 +1,31 @@
+{
+  "name": "grunt-define-plugin",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "http://watilde.github.io/grunt-define-plugin",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "./node_modules/.bin/grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:watilde/grunt-define-plugin.git"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "author": {
+    "name": "Daijiro Wachi",
+    "url": "https://github.com/watilde"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/grunt-define-plugin/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "dependencies": {
+    "grunt-cli": "~0.1.13"
+  }
+}
