@@ -3,6 +3,7 @@ module.exports = function(grunt) {
   var _ = grunt.util._;
   var taskName = 'load_plugin';
   var description = 'load';
+  var async = require('async');
 
   var taskFunction = function () {
     var done = this.async();
