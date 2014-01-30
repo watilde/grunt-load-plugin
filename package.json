@@ -1,15 +1,15 @@
 {
-  "name": "grunt-define-plugin",
+  "name": "grunt-load-plugin",
   "version": "0.0.0",
   "description": "",
-  "homepage": "http://watilde.github.io/grunt-define-plugin",
+  "homepage": "http://watilde.github.io/grunt-load-plugin",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "./node_modules/.bin/grunt"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:watilde/grunt-define-plugin.git"
+    "url": "git@github.com:watilde/grunt-load-plugin.git"
   },
   "keywords": [
     "gruntplugin"
@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watilde/grunt-define-plugin/issues"
+    "url": "https://github.com/watilde/grunt-load-plugin/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.2"
