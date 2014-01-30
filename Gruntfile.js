@@ -3,11 +3,14 @@ module.exports = function(grunt) {
   grunt.initConfig({
     load_plugin: {
       all: {
-        src: 'grunt'
+        src: [
+          'grunt-contrib-jshint'
+        ]
       }
     }
   });
 
   grunt.loadTasks('tasks');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.registerTask('default', ['load_plugin']);
 };
