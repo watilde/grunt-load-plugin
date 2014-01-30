@@ -5,10 +5,12 @@ module.exports = function(grunt) {
   var description = 'load';
 
   var taskFunction = function () {
+    var done = this.async();
     var plugins = this.data.src;
     plugins.forEach(function(plugin) {
-      grunt.loadNpmTasks(plugin);
+      grunt.task.loadNpmTasks(plugin);
     });
+    done();
   };
   grunt.registerMultiTask(taskName, description, taskFunction);
 };
