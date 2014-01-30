@@ -1,16 +1,14 @@
 module.exports = function(grunt) {
   'use strict';
   grunt.initConfig({
-    load_plugin: {
+    require_config: {
       all: {
-        src: [
-          'grunt-contrib-jshint'
-        ]
+        src: 'grunt'
       }
     }
   });
 
   grunt.loadTasks('tasks');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.registerTask('default', ['load_plugin']);
+  grunt.loadNpmTasks('grunt-require-config');
+  grunt.registerTask('default', ['require_config', 'load_plugin', 'jshint']);
 };
